@@ -1,39 +1,25 @@
-nav {
-    background-color: #ECD9BA;
-    height: 75px;
-    margin-bottom: 15px;
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: #212121;
+}
+.bg-light {
+    background-color: #ECD9BA !important;
 
 }
 .description p {
-    color: 212121;
-}
-
-ul{
-    list-style-type:none;
-    margin:0px;
-    padding:0px;
-    float: left;
-}
-li{
-    display: inline;
-    line-height: 75px;
-    margin: 5px;
-}
-li a {
     color: #212121;
-    text-decoration: none;
+}
+.nav-item a {
+    color: #212121 !important;
 }
 
-li a:hover{
-    color: white;
+.nav-item a:hover {
+    color: white !important;
     text-decoration: underline;
-}
-
-.logo {
-    line-height: 75px;
-    color: 212121;
-    font-size: 25px;
-    margin-right: 25px;
 }
 
 .padding {
@@ -70,7 +56,20 @@ height: auto;
 }
 
 .p-text {
-    clear: both;
     margin-top: 15px;
     
+}
+
+.biedingen {
+    background-color: #f4f5f6;
+    height: 100%;
+    width: 100%;
+}
+
+#logo-image{
+    max-width: 180px;
+    max-height: 180px;
+}
+.address {
+    margin-top: 15px;
 }
