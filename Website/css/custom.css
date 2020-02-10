@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: #212121;
+}
+.bg-light {
+    background-color: #ECD9BA !important;
+
+}
+.description p {
+    color: #212121;
+}
+.nav-item a {
+    color: #212121 !important;
+}
+
+.nav-item a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.padding {
+    padding-right: 10px;
+}
+
+.img-padding{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.img-right{
+float: right;
+width: 30%;
+height: 50%;
+}
+
+.img-left{
+float: left;
+width: 70%;
+height: auto;
+
+}
+
+.postalcode {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+.price {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 5px;
+}
+
+.p-text {
+    margin-top: 15px;
+    
+}
+
+.biedingen {
+    background-color: #f4f5f6;
+    height: 100%;
+    width: 100%;
+}
+
+#logo-image{
+    max-width: 180px;
+    max-height: 180px;
+}
+.btn {
+    margin-right: 10px; 
+}
+
+#geboden {
+    height: 80%;
+    width: 100%;
+}
+#geboden-knoppen {
+    height: 20%;
+    background-color: #e7e7e7;
+    width: 80%
+}
+#bod {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#plattegrond{
+    
+    
+}
+
+.btn-gray {
+    border-color: #ECD9BA;
+    color: #212121;
+}
+.btn-gray:hover {
+    color: #212121;
+    background-color: #ECD9BA;
+}
+
+.btn-creme:hover {
+    border-color: #ECD9BA;
+    color: #212121;
+}
+.btn-creme {
+    color: #212121;
+    background-color: #ECD9BA;
+}
+
+#sectioncard {
+    margin-top: 25px;
+    padding: 25px;
+}
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+    margin: 0 auto;
+}
+
+.icon {
+    color: #ECD9BA;
+}
